@@ -4,28 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>productos</title>
+        <!-- BS 5.3 INCIA -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+        <!-- BS 5.3 TERMINA -->
     <link rel="stylesheet" href="../estilos.css">
     <link rel="shortcut icon" href="../multimedia/logo.png" type="image/x-icon">
 </head>
 <body class="bodyproductos">
     <header>
-        <aside class="logo">
-            <img src="../multimedia/logo.png" alt="">
-        </aside>
-        <nav class="barra"> 
-            <ul>
-                <li><a href="../index.html">home</a></li>
-                <li><a href="contacto.html">contacto</a></li>
-                <li><a href="historia.html">historia</a></li>
-                <li><a href="galeria.html">galeria</a></li>
-                <li><a href="#">productos</a></li>
-            </ul>
-        </nav>
+    <!-- navbar inicia -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="multimedia/logo.png" alt="logo control" class="logo-navbar"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar fin -->
     </header>
         <div class="productos">
             <h1>TIPOS DE PRODUCTOS GAMER</h1>
             <h2>Aqui vas a encontrar toda la informacion sobre los tipos de producos que hay en el mercado para que puedas encontrar el que mas se ajusta a tus gustos.</h2>
-            <table border="10" cellpadding="10" cellspacing="10">
+            <tableborder="10" cellpadding="10" cellspacing="10">
                 <tr>
                     <th>Procesadores</th>
                     <th>Placa de video</th>
@@ -68,5 +89,10 @@
     <footer>
         <p>Todos los derechos reservados por copyright</p>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
 </body>
 </html>

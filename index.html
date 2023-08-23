@@ -1,43 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- BS 5.3 INCIA -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
     <!-- BS 5.3 TERMINA -->
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css" />
     <title>NasaPcProject</title>
-    <link rel="shortcut icon" href="multimedia/logo.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-</head> 
+    <link rel="shortcut icon" href="multimedia/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+</head>
 <body>
-    <header>
-        <aside class="logo">
-            <img src="multimedia/logo.png" alt="">
-            <span class="nombre">Nasa Pc Project</span>
-        </aside>
-        <nav class="barra"> 
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="paginas/contacto.html">contacto</a></li>
-                <li><a href="paginas/historia.html">historia</a></li>
-                <li><a href="paginas/galeria.html">galeria</a></li>
-                <li><a href="paginas/productos.html">productos</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- navbar inicia -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="multimedia/logo.png" alt="logo control" class="logo-navbar"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paginas/contacto.html">contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paginas/galeria.html">galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paginas/historia.html">historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paginas/productos.html">productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar fin -->
     <main class="main main-home">
         <div class="call">
             <h1>NASA PC PROJECT</h1>
-            <p>Aquí podras encontrar todo lo necesario para mejorar tu computadora para tener la experiencia que se merece un jugador como vos. Contamos con toda la informacion para que puedas armar el PC de tus sueños. Con las marcas que te gustan, los modelos que soñas y la experiencia que mereces.</p>
+            <p>
+                Aquí podras encontrar todo lo necesario para mejorar tu computadora
+                para tener la experiencia que se merece un jugador como vos. Contamos
+                con toda la informacion para que puedas armar el PC de tus sueños. Con
+                las marcas que te gustan, los modelos que soñas y la experiencia que
+                mereces.
+            </p>
             <a href="paginas/historia.html">Mas info</a>
         </div>
     </main>
-    
+
     <footer>
         <p>Todos los derechos reservados por copyright</p>
         <div class="redes">
@@ -47,8 +70,8 @@
         </div>
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
 </body>
 </html>
-
