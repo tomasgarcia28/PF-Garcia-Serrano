@@ -17,7 +17,7 @@
     height: calc(100vh - 80px);
     width: 100%;
     background-color: gray;
-    background-image: url(multimedia/fondogrande.jpg);
+    background-image: url(../multimedia/fondogrande.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
