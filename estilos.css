@@ -185,6 +185,11 @@ table{
 .galeria{
     display: flex;
     padding: 5px;
+    flex-wrap: wrap;
+}
+
+.columna img{
+    margin-top: 5px;
 }
 
 .columna{
@@ -192,8 +197,10 @@ table{
     padding: 5px;
 }
 
-.columna img{
-    margin-top: 5px;
+@media (max-width: 600px){
+    .columna{
+    flex: 100%;
+}
 }
 
 .bodyproductos{
