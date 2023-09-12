@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+* h1 {
+  font-size: 70px;
+  text-shadow: 0 0 10px #000;
+}
 
 .navbar {
   height: 80px;
@@ -53,7 +57,11 @@
   background-color: green;
   color: black;
   text-decoration: none;
-  padding: 20px 30px;
+  padding: 20px 30px transform rotate(20deg);
+  transition: 0.7;
+}
+.main .call a :hover {
+  rotate: 20deg;
 }
 .main .nombre {
   font-size: 30px;
@@ -74,6 +82,9 @@ footer .redes {
   letter-spacing: 10px;
 }
 
+.productos {
+  background-color: hsla(120, 100%, 25%, 0.356);
+}
 .productos h2 {
   font-size: 20px;
   margin-bottom: 30px;
@@ -103,9 +114,7 @@ footer .redes {
 }
 .productos .explvid {
   font-size: 18px;
-  margin-top: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
 }
 
 .contactos1 {
@@ -132,7 +141,7 @@ footer .redes {
   padding-top: 20px;
   font-size: 20px;
 }
-.contactos1 .bodycontacto {
+.contactos1 .body {
   background-color: hsla(120, 100%, 25%, 0.356);
 }
 
